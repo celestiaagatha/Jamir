@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamir - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .resume-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 800px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4a6fa5;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 10px 0;
+            font-size: 2.2em;
+        }
+        .title {
+            color: #7f8c8d;
+            font-weight: 300;
+            margin-bottom: 15px;
+        }
+        section {
+            margin-bottom: 25px;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            font-size: 1.5em;
+        }
+        .education-item, .contact-item {
+            margin-bottom: 15px;
+        }
+        .education-item h3, .contact-item h3 {
+            margin: 5px 0;
+            color: #2c3e50;
+        }
+        .education-item p, .contact-item p {
+            margin: 5px 0;
+            color: #7f8c8d;
+        }
+        .introduction {
+            line-height: 1.6;
+            color: #34495e;
+        }
+        @media (max-width: 600px) {
+            .resume-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header class="profile-header">
+            <img src="jam.png" alt="Professional headshot of John Doe wearing business casual attire in front of a blurred office background" class="profile-image">
+            <h1>Jamir Kurt Quillang</h1>
+            <p class="title">BSIT-AIT 1-2</p>
+        </header>
+
+        <section class="introduction">
+            <h2>About Me</h2>
+            <p>
+                I'm Jamir Kurt Quillang and I'm 20 years old. I live in Taguig City, Philippines. Since I'm in Senior High School being an Software Engineer is always my dream. I love coding as well as debugging. Since, I'm a tech guy being in love in coding makes me calm. I'm a former National University - Manila student and transferred to Philsca, since Philsca is my dream school ever since.
+            </p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>STI College - Global City</h3>
+                <p>Senior High School, 2021-2023</p>
+            </div>
+            <div class="education-item">
+                <h3>Undergrad Bachelor of Science in Information Technology</h3>
+                <p>National University - Manila, 2023-2025</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p>kuajheko@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p>09930681280</p>
+            </div>
+            <div class="contact-item">
+                <h3>GitHub</h3>
+                <p>https://github.com/celestiaagatha</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
